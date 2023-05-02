@@ -50,13 +50,13 @@ function Tododetail() {
         marginRight: '10px'
       }}>
         <span>id: {itemId.id}</span>
-        <button onClick={navigate(`/TodoList`)}
-        style={{
-          border: '1px solid black',
-          backgroundColor: 'white',
-          borderRadius: '5px',
-          marginLeft: '10px',
-        }}>이전으로</button>
+        <button onClick={() => navigate(`/TodoList`)}
+          style={{
+            border: '1px solid black',
+            backgroundColor: 'white',
+            borderRadius: '5px',
+            marginLeft: '10px',
+          }}>이전으로</button>
       </div>
       <div style={{
         padding: '10px',

@@ -50,7 +50,8 @@ function Tododetail() {
         marginRight: '10px'
       }}>
         <span>id: {itemId.id}</span>
-        <button style={{
+        <button onClick={navigate(`/TodoList`)}
+        style={{
           border: '1px solid black',
           backgroundColor: 'white',
           borderRadius: '5px',
